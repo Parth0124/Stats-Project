@@ -1,4 +1,4 @@
-Year,Country / territory of asylum/residence,Location Name,Female 0-4,Female 5-11,Female 5-17,Female 12-17,Female 18-59,Female 60+,F: Unknown,F: Total,Male 0-4,Male 5-11,Male 5-17,Male 12-17,Male 18-59,Male 60+,M: Unknown,M: Total
+Year,Territory of asylum or residence,Location Name,Female 0-4,Female 5-11,Female 5-17,Female 12-17,Female 18-59,Female 60+,F: Unknown,F: Total,Male 0-4,Male 5-11,Male 5-17,Male 12-17,Male 18-59,Male 60+,M: Unknown,M: Total
 2001,Afghanistan,Kabul,0,,1.0,,1,0,0.0,2,0,,0.0,,2,0,0.0,2
 2001,Afghanistan,Various,14335,,45451.0,,99880,19234,412004.0,590904,14716,,47522.0,,114965,13025,435492.0,625720
 2001,Afghanistan,Herat,0,,0.0,,1,0,0.0,1,0,,0.0,,1,0,0.0,1
