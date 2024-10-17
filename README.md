@@ -52,8 +52,9 @@ Visualizations are created using `matplotlib` and `seaborn` to explore correlati
 To run this project, make sure to install the required libraries:
 ```bash
 pip install -r requirements.txt
-
+```
 
 ## Usage
+```
 Clone the repository: git clone https://github.com/Parth0124/Stats-Project.git
-
+```
