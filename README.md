@@ -55,6 +55,7 @@ pip install -r requirements.txt
 ```
 
 ## Usage
+1. Clone the repository: 
 ```
-Clone the repository: git clone https://github.com/Parth0124/Stats-Project.git
+git clone https://github.com/Parth0124/Stats-Project.git
 ```
