@@ -42,12 +42,11 @@ The following machine learning models are utilized:
 Visualizations are created using `matplotlib` and `seaborn` to explore correlations between features and identify patterns in the data. A heatmap of correlations is included, along with scatter plots for feature relationships.
 
 ## Usage
+To run this project, follow the steps given below:
 1. Clone the repository: 
 ```
 git clone https://github.com/Parth0124/Stats-Project.git
 ```
-To run this project, make sure to install the required libraries:
-
 2. Create a conda environment:
    ```bash
    conda create --name <name_of_the_environment> python=<desired_python_version>
