@@ -7,7 +7,6 @@ This repository contains a comprehensive analysis and prediction project focused
 ## Table of Contents
 - [Introduction](#introduction)
 - [Datasets](#datasets)
-- [Project Structure](#project-structure)
 - [Data Cleaning](#data-cleaning)
 - [Feature Engineering](#feature-engineering)
 - [Modeling](#modeling)
@@ -26,5 +25,35 @@ The project utilizes three main datasets:
 2. **`asylum_seekers_monthly.csv`**: Monthly asylum application data used for time series analysis.
 3. **`resettlement.csv`**: Information related to the resettlement of asylum seekers.
 
-## Project Structure
+
+## Data Cleaning
+Data cleaning is performed to ensure the quality of the datasets before analysis. The following steps are undertaken:
+- **Handling Missing Values**: Null values in critical columns, such as `Location Name`, are dropped. For numeric columns, median values are used to fill missing entries.
+- **Data Type Conversion**: Relevant columns are converted to the appropriate data types (e.g., integers, floats).
+- **Dropping Unnecessary Columns**: Columns that do not contribute to the analysis are removed to streamline the dataset.
+
+## Feature Engineering
+- The data is prepared for modeling by defining independent variables (X) and the dependent variable (y).
+- Standardization is applied to the features to improve model performance.
+
+## Modeling
+The following machine learning models are utilized:
+- **Decision Tree Regressor**
+- **Random Forest Regressor**
+- **XGBoost Regressor**
+
+### Hyperparameter Tuning
+Hyperparameter tuning is performed using Grid Search for the Decision Tree model to find the optimal parameters, enhancing its predictive power.
+
+## Visualization
+Visualizations are created using `matplotlib` and `seaborn` to explore correlations between features and identify patterns in the data. A heatmap of correlations is included, along with scatter plots for feature relationships.
+
+## Requirements
+To run this project, make sure to install the required libraries:
+```bash
+pip install -r requirements.txt
+
+
+## Usage
+Clone the repository: git clone https://github.com/Parth0124/Stats-Project.git
 
