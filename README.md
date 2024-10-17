@@ -11,7 +11,6 @@ This repository contains a comprehensive analysis and prediction project focused
 - [Feature Engineering](#feature-engineering)
 - [Modeling](#modeling)
 - [Visualization](#visualization)
-- [Requirements](#requirements)
 - [Usage](#usage)
 
 ## Introduction
@@ -28,9 +27,9 @@ Data cleaning is performed to ensure the quality of the datasets before analysis
 - **Dropping Unnecessary Columns**: Columns that do not contribute to the analysis are removed to streamline the dataset.
 
 ## Feature Engineering
-- The data is prepared for modeling by defining independent variables (X) and the dependent variable (y).
-- Standardization is applied to the features to improve model performance.
-- Train Test Split is carried out using the scikit-learn libraries
+- The data is prepared for modeling by defining independent variables (x) and the dependent variable (y).
+- Standardization is applied to the features using the 'StandardScaler' library of scikit-learn to improve model performance.
+- Train Test Split is carried out using the scikit-learn library 'model_selection'
 
 ## Modeling
 The following machine learning models are utilized:
@@ -42,7 +41,11 @@ The following machine learning models are utilized:
 ## Visualization
 Visualizations are created using `matplotlib` and `seaborn` to explore correlations between features and identify patterns in the data. A heatmap of correlations is included, along with scatter plots for feature relationships.
 
-## Requirements
+## Usage
+1. Clone the repository: 
+```
+git clone https://github.com/Parth0124/Stats-Project.git
+```
 To run this project, make sure to install the required libraries:
 1. Create a conda environment:
    ```bash
@@ -57,8 +60,4 @@ To run this project, make sure to install the required libraries:
    pip install -r requirements.txt
    ```
 
-## Usage
-1. Clone the repository: 
-```
-git clone https://github.com/Parth0124/Stats-Project.git
-```
+
