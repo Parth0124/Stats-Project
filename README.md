@@ -47,15 +47,15 @@ Visualizations are created using `matplotlib` and `seaborn` to explore correlati
 git clone https://github.com/Parth0124/Stats-Project.git
 ```
 To run this project, make sure to install the required libraries:
-1. Create a conda environment:
+2. Create a conda environment:
    ```bash
    conda create --name <name_of_the_environment> python=<desired_python_version>
    ```
-2. Activate the environment
+3. Activate the environment
    ```bash
    conda activate <name_of_the_environment>
    ```
-3. Install the requirements using requirements.txt file
+4. Install the requirements using requirements.txt file
    ```bash
    pip install -r requirements.txt
    ```
