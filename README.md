@@ -10,11 +10,9 @@ This repository contains a comprehensive analysis and prediction project focused
 - [Data Cleaning](#data-cleaning)
 - [Feature Engineering](#feature-engineering)
 - [Modeling](#modeling)
-- [Hyperparameter Tuning](#hyperparameter-tuning)
 - [Visualization](#visualization)
 - [Requirements](#requirements)
 - [Usage](#usage)
-- [License](#license)
 
 ## Introduction
 The goal of this project is to analyze the demographics of asylum seekers and predict future trends using machine learning techniques. The focus is on understanding the factors influencing asylum applications and how they change over time.
@@ -22,9 +20,6 @@ The goal of this project is to analyze the demographics of asylum seekers and pr
 ## Datasets
 The project utilizes three main datasets:
 1. **`demographics.csv`**: Contains demographic information of asylum seekers, including age and gender distributions.
-2. **`asylum_seekers_monthly.csv`**: Monthly asylum application data used for time series analysis.
-3. **`resettlement.csv`**: Information related to the resettlement of asylum seekers.
-
 
 ## Data Cleaning
 Data cleaning is performed to ensure the quality of the datasets before analysis. The following steps are undertaken:
@@ -35,24 +30,32 @@ Data cleaning is performed to ensure the quality of the datasets before analysis
 ## Feature Engineering
 - The data is prepared for modeling by defining independent variables (X) and the dependent variable (y).
 - Standardization is applied to the features to improve model performance.
+- Train Test Split is carried out using the scikit-learn libraries
 
 ## Modeling
 The following machine learning models are utilized:
+- **Multiple Linear Regression**
 - **Decision Tree Regressor**
 - **Random Forest Regressor**
 - **XGBoost Regressor**
-
-### Hyperparameter Tuning
-Hyperparameter tuning is performed using Grid Search for the Decision Tree model to find the optimal parameters, enhancing its predictive power.
 
 ## Visualization
 Visualizations are created using `matplotlib` and `seaborn` to explore correlations between features and identify patterns in the data. A heatmap of correlations is included, along with scatter plots for feature relationships.
 
 ## Requirements
 To run this project, make sure to install the required libraries:
-```bash
-pip install -r requirements.txt
-```
+1. Create a conda environment:
+   ```bash
+   conda create --name <name_of_the_environment> python=<desired_python_version>
+   ```
+2. Activate the environment
+   ```bash
+   conda activate <name_of_the_environment>
+   ```
+3. Install the requirements using requirements.txt file
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ## Usage
 1. Clone the repository: 
