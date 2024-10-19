@@ -9,10 +9,11 @@ This repository contains a comprehensive analysis and prediction project focused
 - [Datasets](#datasets)
 - [Data Cleaning](#data-cleaning)
 - [Feature Engineering](#feature-engineering)
-- [Principal Component Analysis](#pricipal-component-analysis)
+- [Principal Component Analysis](#principal-component-analysis)
 - [Modeling](#modeling)
 - [Visualization](#visualization)
 - [Usage](#usage)
+
 
 ## Introduction
 The goal of this project is to analyze the demographics of asylum seekers and predict future trends using machine learning techniques. The focus is on understanding the factors influencing asylum applications and how they change over time.
