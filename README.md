@@ -9,6 +9,7 @@ This repository contains a comprehensive analysis and prediction project focused
 - [Datasets](#datasets)
 - [Data Cleaning](#data-cleaning)
 - [Feature Engineering](#feature-engineering)
+- [Principal Component Analysis](#pricipal-component-analysis)
 - [Modeling](#modeling)
 - [Visualization](#visualization)
 - [Usage](#usage)
@@ -31,12 +32,17 @@ Data cleaning is performed to ensure the quality of the datasets before analysis
 - Standardization is applied to the features using the 'StandardScaler' library of scikit-learn to improve model performance.
 - Train Test Split is carried out using the scikit-learn library 'model_selection'
 
+## Principal Component Analysis
+In this project, Principal Component Analysis (PCA) is implemented to reduce the dimensionality of the asylum seekers' demographic dataset. PCA helps to identify patterns in high-dimensional data and visualize the relationships between variables more effectively. Out of the numerous features, 2 principal components that capture maximum variance were selected for principal component analysis. 
+
+
 ## Modeling
-The following machine learning models are utilized:
+The following machine learning algorithms are utilized:
 - **Multiple Linear Regression**
 - **Decision Tree Regressor**
 - **Random Forest Regressor**
 - **XGBoost Regressor**
+The above algorithms were utilized to train and test models using two kinds of datasets. One dataset that didn't had PCA done and another dataset that had PCA done on it and only 2 principal components capturing maximum variance are selected. 
 
 ## Visualization
 Visualizations are created using `matplotlib` and `seaborn` to explore correlations between features and identify patterns in the data. A heatmap of correlations is included, along with scatter plots for feature relationships.
