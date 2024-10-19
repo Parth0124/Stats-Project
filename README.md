@@ -43,6 +43,7 @@ The following machine learning algorithms are utilized:
 - **Decision Tree Regressor**
 - **Random Forest Regressor**
 - **XGBoost Regressor**
+  
 The above algorithms were utilized to train and test models using two kinds of datasets. One dataset that didn't had PCA done and another dataset that had PCA done on it and only 2 principal components capturing maximum variance are selected. 
 
 ## Visualization
