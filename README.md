@@ -44,7 +44,7 @@ The following machine learning algorithms are utilized:
 - **Random Forest Regressor**
 - **XGBoost Regressor**
   
-The above algorithms were utilized to train and test models using two kinds of datasets. One dataset that didn't had PCA done and another dataset that had PCA done on it and only 2 principal components capturing maximum variance are selected. 
+The above algorithms were utilized to train and test models using two kinds of datasets. One dataset that didn't had PCA done and another dataset that had PCA done on it and only 2 principal components capturing maximum variance were selected. 
 
 ## Visualization
 Visualizations are created using `matplotlib` and `seaborn` to explore correlations between features and identify patterns in the data. A heatmap of correlations is included, along with scatter plots for feature relationships.
